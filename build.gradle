@@ -6,13 +6,13 @@ tasks.withType(JavaCompile) {
 
 repositories {
     mavenLocal()
-    jcenter()
+    mavenCentral()
 }
 
 buildscript {
     repositories {
         mavenLocal()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath("net.serenity-bdd:serenity-gradle-plugin:2.3.31")
@@ -24,8 +24,12 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+// Configuración de Java
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
 
 ext {
     slf4jVersion = '1.7.7'

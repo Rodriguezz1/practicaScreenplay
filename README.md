@@ -39,7 +39,7 @@ Este proyecto utiliza el patrón Screenplay para mejorar la legibilidad y la man
 Para ejecutar este proyecto en tu máquina local, debes:
 Clona este repositorio en tu máquina local utilizando Git:
 
-   git clone https://github.com/JessicaParraG/RetoWebSaucemo.git
+   git clone https://github.com/Rodriguezz1/practicaScreenplay.git
 
 ## Ejecución por consola
 Para ejecutar las pruebas localmente por medio de la terminal, con este comando:
