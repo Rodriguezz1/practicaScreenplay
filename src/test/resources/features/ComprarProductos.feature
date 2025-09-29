@@ -3,7 +3,7 @@
 Característica: Comprar productos
 
 @CompraExitosa
-Esquema del escenario: Agregar productos al carrito y realizar compra
+Esquema del escenario:
   Dado que el usuario ingrese a la pagina <url>
   Cuando el ingrese las credenciales <usuario> <clave>
   Y seleccione los productos que desea comprar <accion>

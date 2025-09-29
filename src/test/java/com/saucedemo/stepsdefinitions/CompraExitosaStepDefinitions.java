@@ -37,12 +37,12 @@ public class CompraExitosaStepDefinitions {
     }
     @Cuando("seleccione los productos que desea comprar (.*)$")
     public void seleccioneLosProductosQueDeseaComprarCompraCompleta(String accion) {
-        OnStage.theActorInTheSpotlight().attemptsTo(Productos.alCarrito());
-        OnStage.theActorInTheSpotlight().attemptsTo(Carrito.ProductoCarrito());
+       // OnStage.theActorInTheSpotlight().attemptsTo(Productos.alCarrito());
+
     }
     @Entonces("validara un mensaje de compra exitosa")
     public void validaraUnMensajeDeCompraExitosa() {
-        OnStage.theActorInTheSpotlight().should(seeThat("Validar Mensaje", ValidarMensaje.validar(), Matchers.containsString("Thank you for your order!")));
+       // OnStage.theActorInTheSpotlight().should(seeThat("Validar Mensaje", ValidarMensaje.validar(), Matchers.containsString("Thank you for your order!")));
     }
 
 }

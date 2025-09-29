@@ -12,6 +12,6 @@ public class CarritoUI {
     public static final Target TXT_ZIP = Target.the("").located(By.id("postal-code"));
     public static final Target BTN_CONTINUE = Target.the("").located(By.id("continue"));
     public static final Target BTN_FINALIZAR = Target.the("").located(By.id("finish"));
-    public static final Target LBL_COMPRA_EXITOSA = Target.the("").located(By.xpath("//h2[normalize-space()='Thank you for your order!']"));
+  //  public static final Target LBL_COMPRA_EXITOSA = Target.the("").located(By.xpath("//h2[normalize-space()='Thank you for your order!']"));
 
 }

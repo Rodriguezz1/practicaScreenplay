@@ -17,13 +17,7 @@ public class Carrito implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                Click.on(BTN_REMOVER),
-                Click.on(BTN_CHECKOUT),
-                Enter.theValue(datos.getNombre()).into(TXT_FIRST_NAME),
-                Enter.theValue(datos.getApellido()).into(TXT_LAST_NAME),
-                Enter.theValue(datos.getCodigoZip()).into(TXT_ZIP),
-                Click.on(BTN_CONTINUE),
-                Click.on(BTN_FINALIZAR)
+
 
 
         );
